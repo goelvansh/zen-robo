@@ -4,7 +4,7 @@ Zen is a basic sensor-based robot that operates within a defined region of inter
 
 ## Code Explanation
 
-- `zen.ino`: This file contains the main Arduino code for Zen. It reads sensor data from DHT11 and HC-SR04, calculates scores based on sensor readings, and performs 1-D motion using BO motors.
+- `zen.ino`: This file contains the main Arduino code for Zen. It reads sensor data from PIR sensor, DHT11 and HC-SR04, calculates temp., humidity, and position scores based on sensor readings, and performs motion using BO motors.
 - `wifi_esp.ino`: This file is responsible for handling the Wifi connection and measuring Wifi signal strength using the ESP8266 Wifi module.
 
 ## Setup
